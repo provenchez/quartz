@@ -12,3 +12,7 @@
 .whiteText {
   	color: white;
 }
+
+.character {
+	display: inline
+}
