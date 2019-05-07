@@ -3,7 +3,8 @@
 	console.log('JQUERY LOADED', $)	
 	
 	$(".character").bind("click", function(e){
-		console.log('SELECTION DE ', e);
+		$(".character").removeClass("border")
+		$(e.target).addClass("border");
 	});
 
 	console.log($(".character"))
