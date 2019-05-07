@@ -1,9 +1,8 @@
 ﻿console.log('JQUERY LOADED', $)
 
-var surSelectionCharacter = function(e){
+$(".character").bind("click", function(e){
 	console.log('SELECTION DE ', e);
-}
+});
 
-$(".character").bind("click", surSelectionCharacter);
+console.log($(".character"))
 
-console.log(this)
