@@ -14,7 +14,7 @@
 }
 
 .character {
-	display: inline
+	display: inline-block;
 }
 
 .border {
@@ -23,10 +23,11 @@
     animation-timing-function: step-end ;
     animation-iteration-count: infinite ;
     animation-direction: alternate ;
-    border: 5px solid;
-
+    outline: 5px solid;
+    outline-offset: -5px
+    outline-color: transparent;
 }
 
 @keyframes blink { 
-   50% { border-color: #ff0000; } 
+   50% { outline-color: #ff0000; } 
 }

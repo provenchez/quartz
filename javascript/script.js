@@ -3,8 +3,8 @@
 	console.log('JQUERY LOADED', $)	
 	
 	$(".character").bind("click", function(e){
-		$(".character").removeClass("border")
-		$(e.target).addClass("border");
+		$(".border").removeClass("border")
+		$(e.target).find("img").addClass("border");
 	});
 
 	console.log($(".character"))
