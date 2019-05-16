@@ -1,6 +1,6 @@
 ﻿$(document).ready(function(){
 	
-	console.log($("#theme")[0].playing, "IS IT PLAYING?");
+	$("#theme")[0].play();
 
 	$(".character").bind("click", function(e){
 		$(".border").removeClass("border");
