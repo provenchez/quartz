@@ -24,7 +24,7 @@
     animation-iteration-count: infinite ;
     animation-direction: alternate ;
     outline: 5px solid;
-    outline-offset: -5px
+    outline-offset: -5px;
     outline-color: transparent;
 }
 
