@@ -10,5 +10,8 @@
 		audio.pause();
 		audio.currentTime = 0;
 		audio.play();
+
+		var modal = $("#modal");
+		modal.show();
 	});
 });
