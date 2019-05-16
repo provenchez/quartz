@@ -15,6 +15,11 @@
 		audio.currentTime = 0;
 		audio.play();
 
+		var theme = $("#theme");
+		if(theme.currentTime === 0){
+			theme.play();
+		};
+
 		var modal = $("#modal");
 		modal.show();
 	});
