@@ -49,6 +49,21 @@
   width: 80%;
 }
 
+.toasty {
+  display: block;
+  position: absolute;
+  -webkit-animation-name: toasty;
+  -webkit-animation-duration: 1.2s;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
 @keyframes blink { 
    50% { outline-color: #ff0000; } 
+}
+
+@keyframes toasty {
+  0%   { left:0px; }
+  25%  { left:200px; }
+  75%  { left:0px; }
 }
