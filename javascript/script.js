@@ -4,7 +4,7 @@
 	
 	$(".character").bind("click", function(e){
 		$(".border").removeClass("border")
-		$(e.target).find("img").addClass("border");
+		$(e.target).addClass("border");
 	});
 
 	console.log($(".character"))
