@@ -52,10 +52,8 @@
 .toasty {
   display: block;
   position: absolute;
-  -webkit-animation-name: toasty;
-  -webkit-animation-duration: 1.2s;
-  animation-name: example;
-  animation-duration: 4s;
+  animation-name: toasty;
+  animation-duration: 1.2s;
 }
 
 @keyframes blink { 
