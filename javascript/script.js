@@ -8,8 +8,7 @@
 		$(".border").removeClass("border");
 		$(e.target).addClass("border");
 
-		console.log($(e.target).data());
-		console.log($(e).data());
+		console.log($(e.target.parentElement).data());
 
 		var audio = $("#select")[0];
 		audio.pause();

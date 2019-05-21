@@ -65,6 +65,7 @@
 
 @keyframes toasty {
   0%   { left:-500px; }
-  25%  { left:100px; }
-  75%  { left:-500px; }
+  20%  { left:100px; }
+  80%  { left:100px; }
+  100%  { left:-500px; }
 }
