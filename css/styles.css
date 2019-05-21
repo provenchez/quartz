@@ -55,7 +55,7 @@
   display: block;
   position: absolute;
   animation-name: toasty;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-iteration-count: infinite;
 }
 

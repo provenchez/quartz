@@ -8,7 +8,11 @@
 		$(".border").removeClass("border");
 		$(e.target).addClass("border");
 
-		console.log($(e.target.parentElement).data());
+		var data = $(e.target.parentElement).data();
+
+		$("#modalPortrait").attr("src", data.picture);
+		$("#modalFatality").html(data.fatality);
+		$("#modalQuote").html(data.quote);
 
 		var audio = $("#select")[0];
 		audio.pause();
