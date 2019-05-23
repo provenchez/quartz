@@ -41,7 +41,7 @@
 		modal.show();
 	});
 
-	$('#toasty').bind('click' function(e){
+	$('#toasty').bind('click', function(e){
 		var data = $(e.target.parentElement).data();
 		console.log(data)
 
