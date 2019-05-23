@@ -1,10 +1,5 @@
 ﻿$(document).ready(function(){
 
-    $('.toasty')
-    .bind('animationiteration', function() {
-        $("#toasty")[0].play()
-    });
-
 	$("#modal").bind("click", function(e) {
 		$("#modal").hide();
 	});
@@ -13,6 +8,11 @@
 		$("#start").hide();
 		$("#toasty")[0].play();
 		$("#theme")[0].play();
+
+		$('.toasty')
+	    .bind('animationiteration', function() {
+	        $("#toasty")[0].play()
+	    });
 	});
 
 	$(".character").bind("click", function(e){
