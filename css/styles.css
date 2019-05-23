@@ -59,6 +59,19 @@
   animation-iteration-count: infinite;
 }
 
+.profile {
+  display: flex;
+}
+
+.rightPaneDetails{
+  margin: 1em;
+  color: white;
+}
+
+h3 {
+  color: red;
+}
+
 @keyframes blink { 
    50% { outline-color: #ff0000; } 
 }
