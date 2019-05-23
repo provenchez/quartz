@@ -51,11 +51,11 @@
 
 .toasty {
   left: -500px;
-  bottom: 0;
+  bottom: -2%;
   display: block;
   position: absolute;
   animation-name: toasty;
-  animation-duration: 0.8s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 
@@ -83,7 +83,8 @@ h2 {
 
 @keyframes toasty {
   0%   { left:-500px; }
-  20%  { left:100px; }
-  80%  { left:100px; }
+  1%  { left:100px; }
+  2%  { left:100px; }
+  3%  { left:-500px; }
   100%  { left:-500px; }
 }
