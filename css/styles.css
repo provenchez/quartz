@@ -83,8 +83,8 @@ h2 {
 
 @keyframes toasty {
   0%   { left:-500px; }
-  1%  { left:100px; }
-  2%  { left:100px; }
+  1%  { left:0px; }
+  2%  { left:0px; }
   3%  { left:-500px; }
   100%  { left:-500px; }
 }

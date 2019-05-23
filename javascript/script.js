@@ -1,5 +1,11 @@
 ﻿$(document).ready(function(){
 
+    $('.toasty')
+    .bind('animationiteration', function() {
+        $("#toasty")[0].play()
+    });
+
+
 	$("#modal").bind("click", function(e) {
 		$("#modal").hide();
 	});
@@ -24,7 +30,7 @@
 		audio.currentTime = 0;
 		audio.play();
 
-		var theme = $("#theme");
+		var theme = $("#theme")[0];
 		if(theme.currentTime === 0){
 			theme.play();
 		};
