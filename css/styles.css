@@ -80,6 +80,8 @@
 .startButton {
   position: absolute;
   top: 50%;
+  font-size: 3em;
+  left: 40%;
 }
 
 h3 {
