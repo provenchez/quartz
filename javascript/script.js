@@ -13,6 +13,8 @@
 	    .bind('animationiteration', function() {
 	        $("#toasty")[0].play()
 	    });
+
+	    $('.toasty').css("display", "block");
 	});
 
 	$(".character").bind("click", function(e){

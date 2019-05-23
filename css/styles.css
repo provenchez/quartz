@@ -52,7 +52,7 @@
 .toasty {
   left: -500px;
   bottom: -2%;
-  display: block;
+  display: none;
   position: absolute;
   animation-name: toasty;
   animation-duration: 20s;
