@@ -5,9 +5,14 @@
         $("#toasty")[0].play()
     });
 
-
 	$("#modal").bind("click", function(e) {
 		$("#modal").hide();
+	});
+
+	$("#startButton").bind("click", function(e) {
+		$("#start").hide();
+		$("#toasty")[0].play();
+		$("#theme")[0].play();
 	});
 
 	$(".character").bind("click", function(e){
@@ -29,11 +34,6 @@
 		audio.pause();
 		audio.currentTime = 0;
 		audio.play();
-
-		var theme = $("#theme")[0];
-		if(theme.currentTime === 0){
-			theme.play();
-		};
 
 		var modal = $("#modal");
 		modal.show();
