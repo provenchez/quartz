@@ -76,6 +76,10 @@
   color: white;
 }
 
+.leftPaneDetails {
+  margin-top: 22px;
+}
+
 .start {
   position: absolute;
   width: 100%;
