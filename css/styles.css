@@ -102,6 +102,10 @@ h2 {
   text-align: center;
 }
 
+body {
+  font-family: fantasy;
+}
+
 @keyframes blink { 
    50% { outline-color: #ff0000; } 
 }
