@@ -108,6 +108,9 @@ h2 {
 
 body {
   font-family: fantasy;
+  background-image: url("/quartz/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 @keyframes blink { 
