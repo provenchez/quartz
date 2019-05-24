@@ -43,7 +43,6 @@
 
 	$('.toasty').bind('click', function(e){
 		var data = $(e.target.parentElement).data();
-		console.log(data)
 
 		$("#modalPortrait").attr("src", data.picture);
 		$("#modalFatality").html(data.fatality);
